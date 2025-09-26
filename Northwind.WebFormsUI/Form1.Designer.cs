@@ -30,11 +30,11 @@
         {
             this.dgwProduct = new System.Windows.Forms.DataGridView();
             this.gbxCategory = new System.Windows.Forms.GroupBox();
-            this.gbxProductName = new System.Windows.Forms.GroupBox();
-            this.lblCategory = new System.Windows.Forms.Label();
             this.cbxCategory = new System.Windows.Forms.ComboBox();
-            this.lblProductName = new System.Windows.Forms.Label();
+            this.lblCategory = new System.Windows.Forms.Label();
+            this.gbxProductName = new System.Windows.Forms.GroupBox();
             this.tbxProductName = new System.Windows.Forms.TextBox();
+            this.lblProductName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgwProduct)).BeginInit();
             this.gbxCategory.SuspendLayout();
             this.gbxProductName.SuspendLayout();
@@ -61,6 +61,24 @@
             this.gbxCategory.TabStop = false;
             this.gbxCategory.Text = "Kategoriye Göre Ara";
             // 
+            // cbxCategory
+            // 
+            this.cbxCategory.FormattingEnabled = true;
+            this.cbxCategory.Location = new System.Drawing.Point(96, 25);
+            this.cbxCategory.Name = "cbxCategory";
+            this.cbxCategory.Size = new System.Drawing.Size(277, 24);
+            this.cbxCategory.TabIndex = 1;
+            this.cbxCategory.SelectedIndexChanged += new System.EventHandler(this.cbxCategory_SelectedIndexChanged);
+            // 
+            // lblCategory
+            // 
+            this.lblCategory.AutoSize = true;
+            this.lblCategory.Location = new System.Drawing.Point(22, 28);
+            this.lblCategory.Name = "lblCategory";
+            this.lblCategory.Size = new System.Drawing.Size(57, 16);
+            this.lblCategory.TabIndex = 0;
+            this.lblCategory.Text = "Kategori";
+            // 
             // gbxProductName
             // 
             this.gbxProductName.Controls.Add(this.tbxProductName);
@@ -72,22 +90,12 @@
             this.gbxProductName.TabStop = false;
             this.gbxProductName.Text = "Ürün Adına Göre Ara";
             // 
-            // lblCategory
+            // tbxProductName
             // 
-            this.lblCategory.AutoSize = true;
-            this.lblCategory.Location = new System.Drawing.Point(22, 28);
-            this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(57, 16);
-            this.lblCategory.TabIndex = 0;
-            this.lblCategory.Text = "Kategori";
-            // 
-            // cbxCategory
-            // 
-            this.cbxCategory.FormattingEnabled = true;
-            this.cbxCategory.Location = new System.Drawing.Point(96, 25);
-            this.cbxCategory.Name = "cbxCategory";
-            this.cbxCategory.Size = new System.Drawing.Size(277, 24);
-            this.cbxCategory.TabIndex = 1;
+            this.tbxProductName.Location = new System.Drawing.Point(96, 26);
+            this.tbxProductName.Name = "tbxProductName";
+            this.tbxProductName.Size = new System.Drawing.Size(277, 22);
+            this.tbxProductName.TabIndex = 1;
             // 
             // lblProductName
             // 
@@ -97,13 +105,6 @@
             this.lblProductName.Size = new System.Drawing.Size(58, 16);
             this.lblProductName.TabIndex = 0;
             this.lblProductName.Text = "Ürün Adı";
-            // 
-            // tbxProductName
-            // 
-            this.tbxProductName.Location = new System.Drawing.Point(96, 26);
-            this.tbxProductName.Name = "tbxProductName";
-            this.tbxProductName.Size = new System.Drawing.Size(277, 22);
-            this.tbxProductName.TabIndex = 1;
             // 
             // Form1
             // 

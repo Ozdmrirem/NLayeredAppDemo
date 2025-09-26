@@ -26,7 +26,7 @@ namespace Northwind.WebFormsUI
         private ICategoryService _categoryService;
         private void Form1_Load(object sender, EventArgs e)
         {
-            LoadProduct();
+            LoadProducts();
             LoadCategories();
         }
 
@@ -37,7 +37,7 @@ namespace Northwind.WebFormsUI
             cbxCategory.ValueMember = "CategoryId";
         }
 
-        private void LoadProduct()
+        private void LoadProducts()
         {
             dgwProduct.DataSource = _productService.GetAll();
         }
@@ -45,6 +45,19 @@ namespace Northwind.WebFormsUI
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void cbxCategory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                dgwProduct.DataSource = _productService.GetProductsByCategory(Convert.ToInt32(cbxCategory.SelectedValue));
+            }
+            catch 
+            {
+
+            }
+            
         }
     }
 }
