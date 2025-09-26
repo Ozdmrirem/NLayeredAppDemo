@@ -17,10 +17,6 @@ namespace Northwind.Business.Concrete
             _categoryDal = categoryDal;
         }
 
-        public List<Category> GetAll()
-        {
-            return _categoryDal.GetAll();
-        }
         public void Add(Category category)
         {
             throw new NotImplementedException();
@@ -29,6 +25,11 @@ namespace Northwind.Business.Concrete
         public void Delete(Category category)
         {
             throw new NotImplementedException();
+        }
+
+        public List<Category> GetAll()
+        {
+            return _categoryDal.GetAll();
         }
 
         public Category GetById(int categoryId)
