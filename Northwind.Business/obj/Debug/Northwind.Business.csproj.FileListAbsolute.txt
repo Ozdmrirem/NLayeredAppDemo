@@ -12,3 +12,6 @@ C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\obj\Debug\Northwin
 C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\obj\Debug\Northwin.70FD18CC.Up2Date
 C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\obj\Debug\Northwind.Business.dll
 C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\obj\Debug\Northwind.Business.pdb
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\Northwind.Business.dll.config
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\EntityFramework.SqlServer.xml
