@@ -22,3 +22,9 @@ C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\obj\Debug\Northw
 C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\obj\Debug\Northwind.WebFormsUI.pdb
 C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\obj\Debug\Northwind.WebFormsUI.exe.config
 C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\bin\Debug\Northwind.Business.dll.config
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\bin\Debug\FluentValidation.dll
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\bin\Debug\FluentValidation.xml
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.WebFormsUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
