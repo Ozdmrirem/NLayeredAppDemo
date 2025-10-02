@@ -15,3 +15,9 @@ C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\obj\Debug\Northwin
 C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\Northwind.Business.dll.config
 C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\FluentValidation.dll
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\FluentValidation.xml
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\irem\source\repos\NLayeredAppDemo\Northwind.Business\bin\Debug\System.Threading.Tasks.Extensions.xml
